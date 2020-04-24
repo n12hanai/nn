@@ -2,7 +2,9 @@
 
 body {
 font-family: serif;
-background-image: url(../image/b001.gif);
+background-image: url("25351_1.jpg");
+background-size: cover;
+
 }
 
 .top{
@@ -70,8 +72,9 @@ display: flex;
 .profile_img {
 width: 200px;
 height: 200px;
-background-image: url(../image/profile.jpg);
-border-radius: 50%;
+background-image: url(211754.jpg);
+border-radius: 20%;
+background-size: cover;
 }
 
 .profile_txt {
@@ -103,7 +106,6 @@ font-weight: bold;
 td {
 width: 400px;
 padding: 10px;
-color: #7fbfff;
 }
 
 .contact {
