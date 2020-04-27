@@ -2,34 +2,13 @@
 
 body {
 font-family: serif;
-background-image: url("25351_1.jpg");
-background-size: cover;
-
+background-image: url(25351_1.jpg);
+background-image: no-repeat;
+background-attachment: fixed;
 }
 
-.top{
-animation-name:fade-in;
-animation-duration:4s;
-animation-timing-function: ease-out;
-animation-delay:0s;
-animation-iteration-count:1;
-animation-direction:normal;
-animation-fill-mode: forwards;
-}
 
-@keyframes fade-in {
-0% {opacity: 0}
-100% {opacity: 1}
-}
-
-.name {
-width: 600px;
-text-align: center;
-font-size: 32px;
-margin: 200px auto 0px auto;
-}
-
-.lead {
+#lead {
 width: 600px;
 text-align: center;
 font-family: serif;
@@ -88,42 +67,3 @@ text-align: center;
 margin: 250px auto 0px auto;
 }
 
-table, td, th {
-border-collapse: collapse;
-border: 1px #707070 solid;
-}
-
-table {
-margin: auto;
-}
-
-th {
-width: 200px;
-padding: 10px;
-font-weight: bold;
-}
-
-td {
-width: 400px;
-padding: 10px;
-}
-
-.contact {
-width: 600px;
-text-align: center;
-margin: 250px auto 0px auto;
-}
-
-.mail {
-font-size: 20px;
-}
-
-.twitter {
-font-size: 20px;
-margin-top: 10px;
-}
-
-a {
-text-decoration: none;
-color: #333333;
-}
